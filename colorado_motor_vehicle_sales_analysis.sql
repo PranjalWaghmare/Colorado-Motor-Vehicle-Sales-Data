@@ -2,7 +2,6 @@
 -- Author: Pranjal Waghmare
 -- Date: November 11, 2025
 -- Description: Complete SQL project to clean, analyze, and summarize Colorado vehicle sales data.
--- NOTE: Import your CSV manually into 'raw_motor_sales' table using MySQL Workbench Import Wizard.
 
 CREATE DATABASE IF NOT EXISTS colorado_sales;
 USE colorado_sales;
@@ -135,7 +134,4 @@ BEGIN
 END $$
 DELIMITER ;
 
--- Usage example:
--- CALL get_top_counties(10);
 
--- End of Script
